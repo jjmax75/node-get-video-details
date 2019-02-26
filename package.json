@@ -2,10 +2,15 @@
   "name": "get-video-details",
   "version": "1.0.0",
   "description": "Gets thumbnail and length of videos in a folder",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "git": "https://github.com/jjmax75/node-get-video-details.git",
   "author": "John Behan <behanj@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "get-video-duration": "1.0.3",
+    "video-thumb": "0.0.3"
+  }
 }
